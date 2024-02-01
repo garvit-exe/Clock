@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#clock-container {
+    position: relative;
+    background-color: white;
+}
+
+#digitalClock {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: white;
+}
